@@ -1,0 +1,109 @@
+h1{
+    color: white;  background-color: black;
+}
+/* dans cette exemple on a selection "h1" pour le modifier via CSS( on vien de changer le 
+le background et la couleur du texte  */
+
+
+
+
+
+section p{
+    color: red;
+}
+/* Dans cette exemple on vien de changer tout le texte de la "section" en rouge  */
+
+
+
+
+section p:first-child{
+    color: blue;
+}
+/* Dans cette exemple on vien de changer la premier "p" de la  "section" en bleu  */
+
+
+
+
+
+section p:last-child{
+    color: green;
+}
+
+/* Dans cette exemple on vien de changer le dernier "p"  de la "section" en vert */
+
+
+
+
+section p:nth-child(even) {
+    color: lightblue;
+}
+/* Dans cette exemple on vien de changer tout les "p"  "paire " la "section" en lightbleu   */
+
+
+
+
+section p:nth-child(odd){
+    color: brown;
+}
+/* Dans cette exemple on vien de changer tout les "p" " impaire "  de la "section" en brown */
+
+
+
+section p:nth-child(3), section p :nth-child(10){
+    color: orange;
+}
+/* Dans cette exemple on vien de changer les "p" 3 et 10  "section" en orange */
+
+
+
+
+.zone1 { 
+    color: red;
+}
+/* Dans cette exemple on vien de changer la (class= "zone1") q'uon a creé dans le fichier HTML en rouge */
+
+
+.zone2 {
+    color: rgb(139, 0, 139);
+}
+/* Dans cette exemple on vien de changer la (class= "zone2") q'uon a creé dans le fichier HTML en violet */
+
+
+.lime {
+    color: greenyellow;
+}
+/* Dans cette exemple on vien de changer la (class= "lime") q'uon a creé dans le fichier HTML en vert citron */
+
+
+
+
+#zone3 {
+    background-color: #f5deb3;
+}
+/* Dans cette exemple on vien de changer la (id= "zone3") q'uon a creé dans le fichier HTML en beige on utlise " #" pour faire apele au racourci  */
+
+
+
+
+#zone3::after{
+    content: "rajouter après";
+}
+/* Dans cette exemple on vien de placer une petite phrase dans la "#zone3" apres */
+/* on utilise "content" pour inserer des mots dans notre fichier HTML via CSS */
+
+
+
+
+#zone3:before{
+   content: "rajouter avant";
+}
+/* Dans cette exemple on vien de placer une petite phrase dans la "#zone3" avant */
+
+
+
+ul li:nth-child(2){
+ background-color: red;color: white;   
+}
+/* Dans cette exemple on vien de changer le background et la coleur de la ligne (2) dans "ul" */
+/* On utilise "nth-child" pour changer les caractéristique d'une ligne spécifique quand on à plusieur ligne  */
+/* On utilise "ul" pour faire une liste désordoné combiné aved "li" */

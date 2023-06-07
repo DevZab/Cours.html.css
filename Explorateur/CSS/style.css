@@ -1,0 +1,57 @@
+*{
+    font-family: fantasy;
+}
+/* la balise "*" sert a selectioner toute la page HTML on peut y modifier la POLICE du texte 
+on utilise la balise "font-family" pour modifier la police du texte*/
+
+
+body{
+    width: 50%;
+    margin: auto;
+}
+/* Balise " width" pour changer la largeur de la page HTML */
+/* Balise "margin:auto"  c'est pour la getion automatique pour que mon tableau soit centré*/
+
+
+
+table{
+     border: 9px solid #483d8b;
+     width: 90%;
+}
+/* Balise "border" sert a changer l'epaiseur ( les pixels ) du contour du tableau et sa couleur */
+
+
+thead,tfoot{
+    background-color:#e6e6fa;
+    border: 3px solid #6a5acd;
+}
+
+
+tbody{
+    border: 1px solid #6a5acd;
+}
+
+
+th{
+    border: 1px dotted #6a5acd;
+    background-color: #e6e6fa;
+    width: 25%;
+    padding: 4px;
+}
+/* Balise "padding"  l'écart de l'affichage ( titre ,en tete etc..) */
+/* Balise "dotted" pour faire des pointillé sur les contours */
+
+
+td{
+    border: 1px dotted #6a5acd;
+    text-align: center;
+    font-size: 100%;
+    padding: 5px;
+}
+
+td:first-child{
+    text-align: left;
+    background-color: #e6e6fa;
+}
+/* Dans cette exemple on vien d'alligner le texte à gauche pour le "td" 1  */
+/* Toujours utiliser la balise "child" pour selectioné une partie spécifique à modifier */

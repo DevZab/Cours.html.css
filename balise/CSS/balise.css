@@ -1,0 +1,62 @@
+*{
+    text-align: right;
+}
+/*    "*"   permet de changer ou modifier toute la page ( texte , background etc ) si tu veux modifier 
+une balise spécifique tu peux aussi  */
+
+
+body {
+    background: rgb(255, 230, 0);
+}
+/* on vien de modifier le background de  la balise Body  ( le corps de la page )  */
+
+header { 
+    background-color: blueviolet;
+    color: blanchedalmond;
+    height: 100px;
+}
+/*  on vien de modifier le background , le texte , et le la hauteur en Pixel du Header ( le haut de la page) */
+
+nav{
+    background: rgb(0, 204, 255);
+    height: 60px; 
+}
+/*  on vien de modifier le background et  la hauteur en Pixel du la zone Nagigation ( menu )   */
+
+section{
+    background-color: red;
+    height: 550px;
+}
+/*  on vien de modifier le background  et le la hauteur en Pixel de la Section */
+
+article{
+    background-color:aqua ;
+    height: 70px
+}
+/*  on vien de modifier le background  et le la hauteur en Pixel de l'Article  */
+
+footer{
+    background-color: darkred;
+    height: 50px;
+}
+/*  on vien de modifier le background  et le la hauteur en Pixel du Footer ( Pied de la page )   */
+
+nav,footer{
+    color: beige;
+}
+/*  on vien de modifier la Couleur du texte de " nav et footer" en meme temps  */
+
+.jaune{
+    background-color: yellow;
+}
+
+.text{ 
+    text-align: right;
+}
+/* on utilise "." pour creé nos racourcis avec la balise "Class "  */
+
+#bleu{
+    color: blue;
+    font-size: 25px;
+}
+/* on utilise "#" pour creé nos racourcis avec la balise " ID "  */

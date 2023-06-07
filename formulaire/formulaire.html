@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="CSS/formulaire.css">
+    <!-- "link" cette balise est utiliser pour faire la liaison des codes entre le fichiers HTML et CSS veuillez indiquer 
+    la destination de votre fichier CSS dans " href = "   (ex  : href="CSS/formulaire.css" )  -->
+</head>
+<body>
+    <form action="mapage.php" method="get">
+    <!-- "form" balise pour crée des formulaires -->
+
+        <label for="pseudo">
+        <!-- "label" le Pré-Requis que tu veux -->
+            PseudoNyme
+        </label>
+        <input type="text" id="pseudo" name="pseudo"
+        placeholder="Pseudo_exemple" required>
+        <!-- "input" le type de donné à saisir ( texte ou chiffre ou date ) "name" sera utilisé en PHP pour récupérée l
+        les donneée  -->
+        <!-- "placeholder" contient un exemple pour l'utilisateur  -->
+        <!-- "required"  C'est un champs à remplir obligatoirement pour passer à l'étape suivante  -->
+        
+    <br>
+    <!--  Mot de passe -->
+    <label for="Mdp">Mot de passe</label>
+    <input type="password" name="mdp" placeholder="Mot de passe" required>
+    <br>
+    
+    
+    
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="email">
+    <br> <br>
+     <label for="photo">Photo</label>
+     <input type="file" name="photo">
+     <br><br>
+     <fieldset>
+    <!-- "fieldset" cette balise permet de faire un encadrement  -->
+     <legend>Choix multiple </legend>
+     <!-- "legend" cette balise permet de donné un Titre à l'encadrement -->
+     <label for="choix multiple">Quel destination choisissez-vous ? 
+     </label>
+     <br><br>
+     <input type="checkbox" name="pays" value="Italie">
+     <label for="italie">Italie</label> <br>
+     <input type="checkbox" name="pays" value="Tunisie">
+     <label for="Tunisie">Tunisie</label> <br>
+     <input type="checkbox" name="pays" value="Espagne">
+     <label for="Espagne">Espagne</label>
+     <br><br>
+
+     <!-- Type de Checkbox avec choix multiple -->
+    <label for="un_choix">Qui seront vos acocompagnateurs ? </label>
+     <br><br>
+     <input type="radio" name="accompagnateur" value="réponse1">
+     <label for="italie">En Famillle </label>
+     <input type="radio" name="accompagnateur" value="réponse2">
+     <label for="tunisie">Tous seul</label>
+     <br>
+     <label for="selection"> Avion préferer </label>
+     <select name="avion" id="avion">
+         <optgroup label="trop chère ">
+         <option value="airfrance">Airfrance</option>
+         <option value="quatar">Quatar</option>
+        </optgroup>
+         <optgroup label="Pas chère"><option value="Transavia" selected>Transavia</option>
+        </optgroup>
+    <!-- "option" cette balise est utiliser pour avoir une liste de reponse au choix -->
+    <!-- "optgroup" cette balise est utiliser pour faire des sous categorie dans la liste de réponse combiné avec la balise "option" -->
+     </select>
+    </fieldset>
+    <br>
+
+    <!-- Zone de Texte -->
+    <label for="commentaire">Commentaire</label>
+    <br>
+    <textarea name="commentaire" id="commentaire" cols="30" rows="10">
+    </textarea>
+    <!-- "textarea" = signifie zone de texte ou commentaires -->
+    <!-- " rows" = signifie le nombre de ligne  -->
+    <!-- "cols" = c'est le nombre de colones/caractère-->
+    <br>
+
+    <!-- Bouton d'envoi et Bouton valider-->
+    <input type="submit" name="inscription" value="valider">
+
+    <!-- Bouton Annuler/Vider -->
+    <input type="reset" name="annuler" value="annuler">
+    
+
+
+
+
+    </form>
+    
+</body>
+</html>   
+

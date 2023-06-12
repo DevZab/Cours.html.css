@@ -1,0 +1,42 @@
+p{
+    display: inline;
+}
+
+
+
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.kpXJ2wbtmiLFugKm00h54AHaEK?pid=ImgDet&rs=1);
+    color: white;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-image:url(/siamois.jpg);
+    border: 5px solid orchid;
+    /* taille , style ,couleur : de la bordure  */
+    margin: 2vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left ;
+    /* effet flottant , permet de  placer des balise cote a cote alor que selon le flux de web 
+    standar les element se placent les uns au dessus des autres */
+}
+.clear{
+    clear:both;
+}
+
+.boite:hover{
+    margin-top: 10vh;
+}

@@ -1,0 +1,10 @@
+.rond{
+width: 45em;
+height:45em;
+margin: auto;
+border-radius: 50%;
+background: linear-gradient(to right, rgb(22, 248, 2), rgb(1, 245, 151))
+;background-color: blueviolet;}
+body{
+    background-color: red;
+}

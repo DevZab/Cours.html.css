@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1 id="top">Les différent lien d'une page HTML</h1>
+    
+    <p>Les lien permettent de passer d'une page à une autre dans le memme site ou vers un autres site , comme d'autre action </p>
+    
+    <h2>Les ancres :liens  à l'intérieur de la meme page du site </h2>
+    
+    <p>Les ancres sont particulièrement utiles sur les sites web intégrant beaucoup de contenu </p>
+    
+    <p><a href="interieur"> Lien interieur sur une page du site ( on peut selectioner des balise ) </a> </p>
+    
+    <p><a href="#onglet">Lien ouvrant un nouvel onglet</a></p>
+
+    <p><a href="#telecharger">Lien de téléchargent d'un fichier</a></p>
+
+    <p><a href="#see">Lien de visualisation d'un fichier PDF </a></p>
+
+    <p><a href="#download">Lien de télechargement d'un fichier PDF</a></p>
+
+    <p><a href="#imagelic">Lien sur une image</a></p>
+
+    <p><a href="print">Lien permetant d'imprimer la page en cours </a></p>
+
+    <p><a href="#site"></a></p>
+
+    <hr>
+
+
+    <h2 id="interieur">Lien intérieur sur une autre page du site </h2>
+
+    <p>La balise &lt;a> permet de créer un lien hypertext et l'attribut <em>href</em> permet de définir la destination du lien </p>
+    <a href="index2.html">Cliquer ici pour aller en page 2</a>
+    <p class="code">&lt;a> href="index2.html>cliquer icic pour aller en page 2 &lt;/a>
+    <a href="top">TOP</a></p>
+
+    <hr>
+    <h2 id="onglet">Lien ouvrant un nouvel Onglet </h2>
+    <p>Sans fermer l'onglet du site consulté  , on va consulter un autre site ouvrant un nouvel onglet</p>
+    <a href="index2.html">Page 2 dans un nouvel onglet </a>
+    <p>&lt;a> href="index2.html" target="_blank> Page 2 dans un nouvel onglet &lt;/a> </p>
+    <p class="code">&lt;a> href="index2.html>cliquer icic pour aller en page 2 &lt;/a>
+    <a href="top">TOP</a>
+    <hr>
+    
+    <h2 id="site">Lien vers un autre site web</h2>
+    <p>l'attribut <em>href</em> permet de définir la déstination du lien et l'attribut <em>Title</em>affiche une info-bulle au survol de la souris</p>
+    <a href="http://www.20minutes.fr" title="rendre sur 20 minutes actualité" >20 minutes</a>
+
+    <p class="code">&lt;a href="htttp//www.20minutes.fr" title="Se rendre sur 20minutes - Actualités">20 minutes&lt;/a></p>
+    <p><a href="#top">Top</a></p>
+    <hr>
+    
+    <h2 id="telecharger">Lien de téléchargement d'un fichier </h2>
+    <!-- deux manières -->
+    <p>ce lien permet de proposer le téléchargement d'un fichier attention à l'arborescence des répertoire si votre fichier pas
+        dans le meme repertoire que le fichier index.html</p>
+
+        <a href="document.doc">télecharger le fichier </a>
+        <p class="code">&lt;a href="document.doc" >Télecharger le fichier &lt /a></p>
+        <p>Ce lien dotté de l'attribut <em>download</em> propose le téléchargement d'un fichier</p>
+        <a href="image.pdf" download="img">télécharger l'image </a>
+        <p class="code"> &lt;a href="image.pdf" dowload>Télécharger l'image &lt;/a></p>
+        <p><a href="top">Top</a></p>
+        <hr>
+
+        <h2>Lien de visualisation d'un fichier PDF</h2>
+        <p>ce lien ouvre un documentPDF directement dans la page web</p>
+        <a href="image.pdf">afficher l'image</a>
+        <hr>
+
+        <h2>Lien sur une image</h2>
+        <p>ce lien ouvre une autre utl en cliquant sur une image </p>
+        <a href="http//wwww.20minutes.fr"><img src="image2.jpg" alt="un lion "></a>
+        <p class="code">&lt;a href="http//www.20minutes.fr">&lt;img src="image.jpg" alt="un lion">&lt;/a></p>
+        <p><a href="top">Top</a></p>
+        <h2>Lien permettant d'imprimer la page en cours </h2>
+        <a href="" oneclick="window.print()">imprimer</a>
+        <p class="code">&lt;a href="" onClick="window.print()'> Imprimer la page &lt;/a></p>
+           <p><a href="#top">Top</a></p>
+
+</body>
+</html>

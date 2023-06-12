@@ -1,0 +1,53 @@
+body{
+    border: 1px solid black;
+    width: 1900px;
+    margin: 10px auto;
+    height: auto;
+
+}
+header,footer{
+    border: 1px solid black;
+    background-color: rgb(189, 60, 60) ;
+   
+    width: 100%;
+   height: 90px;
+   text-align: center;
+
+
+
+}
+
+nav{
+    border: 1px solid black;
+    background-color: maroon ;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+section{
+    border: 1px solid black;
+    width: 100%;
+    height: 900px;
+    background-color: beige;
+    text-align: center;
+    margin:auto;
+    padding:0;
+    display: flex;
+    flex-direction: column-reverse
+    
+    
+}
+
+p{
+
+    margin: 0;
+    
+  width: 90%;
+  height: 890px;
+  text-align: center*;
+  
+  }
+
+  
